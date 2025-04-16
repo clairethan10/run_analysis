@@ -27,6 +27,7 @@ names(xtrain) <- features$V2
 names(ytest) <- "activity"
 names(ytrain) <- "activity"
 
+# merge the datasets
 train <- cbind(subjecttest, ytest, xtest)
 test <- cbind(subjecttrain, ytrain, xtrain)
 
@@ -56,7 +57,7 @@ dt2$activity <- factor(dt2$activity,
                                 "sitting",
                                 "standing", 
                                 "laying"))
-install.packages("reshape2")
+#install.packages("reshape2")
 
 library(reshape2)
 wide <- melt(dt2, id=c("subjectID", "activity"))
