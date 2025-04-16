@@ -10,13 +10,13 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 Here are the data for the project: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 You should create one R script called run_analysis.R that does the following. 
-Merges the training and the test sets to create one data set.
-Extracts only the measurements on the mean and standard deviation for each measurement. 
-Uses descriptive activity names to name the activities in the data set
-Appropriately labels the data set with descriptive variable names. 
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+Step 1: Merges the training and the test sets to create one data set.
+Step 2: Extracts only the measurements on the mean and standard deviation for each measurement. 
+Step 3: Uses descriptive activity names to name the activities in the data set
+Step 4: Appropriately labels the data set with descriptive variable names. 
+Step 5:From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## Run the r script to create the tidy dataset
-run_analysis.R 
+## Assignment submission
+My submission includes: 1) run_analysis.R and 2) subject_activity_mean.txt.  #1 includes steps in R to create the tidy data set and #2 is the final tidy dataset created.
 
 
