@@ -61,8 +61,6 @@ install.packages("reshape2")
 library(reshape2)
 wide <- melt(dt2, id=c("subjectID", "activity"))
 
-sub_activity_mean <- dcast(melt, subjectID+activity ~ variable,mean,
-              margins=c("subjectID+activity", "variable"))
-
+tidy <- dcast(wide, subjectID+activity ~ variable, mean)
 #save the dataset 
-write.csv(tidy,"subject_activity_mean.csv", row.names=FALSE )
+write.table(tidy,"subject_activity_mean.txt", row.names=FALSE )
