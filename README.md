@@ -17,6 +17,6 @@ Step 4: Appropriately labels the data set with descriptive variable names.
 Step 5:From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Assignment submission
-My submission includes: 1) run_analysis.R and 2) subject_activity_mean.txt.  #1 includes steps in R to create the tidy data set and #2 is the final tidy dataset created.
+My submission includes: 1) run_analysis.R, 2) subject_activity_mean.txt, and 3) Codebook.md.  #1 includes steps in R to create the tidy data set and #2 is the final tidy dataset created.
 
 
